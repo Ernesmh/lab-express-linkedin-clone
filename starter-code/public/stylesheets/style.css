@@ -1,8 +1,47 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("../img/sky.jpg");
+  background-size: cover;
+  color:white;
+  font-size:25px;
+  text-align: center;
+  line-height: 15px;
+}
+
+.sign{
+  font-size: 14px;
+  padding-top: 50px;
 }
 
 a {
-  color: #00B7FF;
+  color: black;
+  text-decoration: none;
+}
+
+label{
+  font-size: 14px;
+  color: white;
+}
+
+input{
+    font-size: 12px;
+}
+
+button{
+  border-radius: 5px;
+  background-color: #076698;
+  border: 1px solid #076698;
+  width: 100px;
+  height: 25px;
+  font-size: 15px;
+  color: white;
+}
+
+h1{
+  color:black;
+}
+
+h2{
+  color: black;
 }

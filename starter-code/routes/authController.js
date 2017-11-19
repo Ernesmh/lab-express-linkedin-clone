@@ -11,6 +11,7 @@ authController.get('/signup', (req, res, next) => {
   });
 });
 
+
 authController.post("/signup", (req, res, next) => {
     const name = req.body.username;
     const email = req.body.email;

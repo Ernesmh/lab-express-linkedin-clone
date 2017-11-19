@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Linked In Members</title>
+</head>
+<body>
+    <h2>Welcome <%= user.username %></h2>
+    <a href="/profiles/show/<%= user._id %>">View your profile</a><br><br>
+    <a href="/users/<%= user._id %>/posts/new">Add a Post!</a><br><br>
+    <a href="/logout">Logout</a>
+
+</body>
+</html>
